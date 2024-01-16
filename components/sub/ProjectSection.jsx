@@ -88,7 +88,6 @@ const ProjectsSection = () => {
                         transition={{ duration: 0.3, delay: project.id * 0.4 }} // Use project.id as delay value
                     >
                         <Project
-                            key={project.id}
                             title={project.title}
                             description={project.description}
                             imgUrl={project.src}
