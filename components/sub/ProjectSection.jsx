@@ -79,13 +79,13 @@ const ProjectsSection = () => {
                 />
             </div>
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 overflow-hidden rounded-lg  shadow-lg mb-10 pb-10 pl-10 pr-10">
-                {filteredProjects.map((project, index) => (
+                {filteredProjects.map((project) => (
                     <motion.li
-                        key={index}
+                        key={project.id} // Add key prop with unique value
                         variants={cardVariants}
                         initial="initial"
                         animate={isInView ? "animate" : "initial"}
-                        transition={{ duration: 0.3, delay: index * 0.4 }}
+                        transition={{ duration: 0.3, delay: project.id * 0.4 }} // Use project.id as delay value
                     >
                         <Project
                             key={project.id}
