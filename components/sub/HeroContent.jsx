@@ -35,14 +35,15 @@ const HeroContent = () => {
           <span>
             Hi, <img src="/waving.png" alt="Waving" className="w-20 h-15 inline-block" /> I&apos;m{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            <br></br>
+              <br></br>
               <TypeAnimation
                 sequence={[
-                  "Adam",
+                  { text: "Adam", key: "adam" },
                   1000,
-                  <br></br>,
-                  "Frontend Developer",
+                  { text: <br key="br1" />, key: "br1" },
+                  { text: "Frontend Developer", key: "frontendDeveloper" },
                   1000,
+                  { text: <br key="br2" />, key: "br2" },
                 ]}
                 wrapper="span"
                 speed={1}
