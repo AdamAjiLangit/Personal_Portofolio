@@ -57,7 +57,7 @@ const ProjectsSection = () => {
             <h2 className="text-center text-4xl font-bold md:mb-12 text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
                 My Projects
             </h2>
-            <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+            <div className="sm:flex sm:flex-row max-sm:mr-10 justify-center items-center gap-2 max-sm:relative ml-10 py-6 sm:py-2">
                 <ProjectTag
                     onClick={handleTagChange}
                     name="All"
@@ -71,6 +71,7 @@ const ProjectsSection = () => {
                 <ProjectTag
                     onClick={handleTagChange}
                     name="Mobile"
+                    isSelected={tag === "Mobile"}
                 />
                 <ProjectTag
                     onClick={handleTagChange}

@@ -24,19 +24,19 @@ const Footer = () => {
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             <a href='https://www.linkedin.com/in/adam-aji-langit-817670267/' className='flex flex-row items-center'>
                                 <RxLinkedinLogo />
-                                <span className='text-[15px] ml-[6px]'>Adam Aji Langit</span>
+                                <span className='text-[15px] ml-[6px]'>Linkedin</span>
                             </a>
                         </p>
                         <p className=''>
                             <a href='https://www.instagram.com/zein_wx/' className='flex flex-row items-center my-[15px] cursor-pointer'>
                                 <RxInstagramLogo />
-                                <span className='text-[15px] ml-[6px]'>@zein_wx</span>
+                                <span className='text-[15px] ml-[6px]'>Instagram</span>
                             </a>
                         </p>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             <a href='https://github.com/AdamAjiLangit' className='flex flex-row items-center'>
                                 <RxGithubLogo />
-                                <span className='text-[15px] ml-[6px]'>AdamAjiLangit</span>
+                                <span className='text-[15px] ml-[6px]'>Github</span>
                             </a>
                         </p>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>

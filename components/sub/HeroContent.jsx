@@ -32,23 +32,22 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w[600px] w-auto h-auto"
         >
-          <span>
-            Hi, <img src="/waving.png" alt="Waving" className="w-20 h-15 inline-block" /> I&apos;m{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              <br></br>
+          <span className="max-sm:text-xl">
+            Hi, <img src="/waving.png" alt="Waving" className="w-20 h-15 inline-block max-sm:w-10" /> I&apos;m{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 sm:text-5xl text-4xl max-sm:text-1xl lg:text-5xl lg:leading-normal">
+            <br></br>
               <TypeAnimation
                 sequence={[
-                  { text: "Adam", key: "adam" },
+                  "Adam",
                   1000,
-                  { text: <br key="br1" />, key: "br1" },
-                  { text: "Frontend Developer", key: "frontendDeveloper" },
+                  "Frontend Developer",
                   1000,
-                  { text: <br key="br2" />, key: "br2" },
                 ]}
                 wrapper="span"
                 speed={1}
                 repeat={Infinity}
               />
+              <br></br>
             </span>
           </span>
         </motion.div>
