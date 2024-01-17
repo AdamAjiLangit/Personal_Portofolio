@@ -23,12 +23,6 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "Vue js",
-    Image: "/vue.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Css",
     Image: "/css.png",
     width: 100,
@@ -43,8 +37,8 @@ export const Frontend_skill = [
   {
     skill_name: "Flutter",
     Image: "/flutter.png",
-    width: 65,
-    height: 65,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Dart",
@@ -61,18 +55,6 @@ export const Frontend_skill = [
   {
     skill_name: "React",
     Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "My SQL",
-    Image: "/mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Postman",
-    Image: "/postman.png",
     width: 80,
     height: 80,
   },
