@@ -19,14 +19,14 @@ export const Frontend_skill = [
   {
     skill_name: "Html 5",
     Image: "/html.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Css",
-    Image: "/css.png",
-    width: 100,
-    height: 100,
+    Image: "/css4.png",
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Java Script",
@@ -37,14 +37,14 @@ export const Frontend_skill = [
   {
     skill_name: "Flutter",
     Image: "/flutter.png",
-    width: 60,
-    height: 60,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "Dart",
     Image: "/dart.png",
-    width: 65,
-    height: 65,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Tailwind Css",
@@ -55,14 +55,14 @@ export const Frontend_skill = [
   {
     skill_name: "React",
     Image: "/react.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Figma",
     Image: "/figma.png",
-    width: 50,
-    height: 50,
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "Unity",

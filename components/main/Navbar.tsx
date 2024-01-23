@@ -1,6 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import { Socials } from '@/constants';
+import {
+    RxDiscordLogo,
+    RxGithubLogo,
+    RxInstagramLogo,
+    RxLinkedinLogo,
+} from "react-icons/rx";
 
 const Navbar = () => {
     return (
@@ -19,10 +25,16 @@ const Navbar = () => {
                         <a href="#projects" className='cursor-pointer'>Projects</a>
                     </div>
                 </div>
-                <div className='flex flex-row gap-5 max-sm:w-20 max-sm:gap-1'>
-                    {Socials.map((social) =>
-                        <Image src={social.src} alt={social.name} key={social.name} width={24} height={24} />
-                    )}
+                <div className='flex flex-row gap-5 max-sm:w-20 max-sm:gap-1 cursor-pointer text-white'>
+                    <a href='https://github.com/AdamAjiLangit' className='flex flex-row items-center'>
+                        <RxGithubLogo />
+                    </a>
+                    <a href='https://www.linkedin.com/in/adam-aji-langit-817670267/' className='flex flex-row items-center'>
+                        <RxLinkedinLogo />
+                    </a>
+                    <a href='https://www.instagram.com/zein_wx/' className='flex flex-row items-center'>
+                        <RxInstagramLogo />
+                    </a>
                 </div>
             </div>
         </div>

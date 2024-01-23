@@ -13,7 +13,7 @@ const Skills = () => {
         <section id='skills' className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden'
         >
             <SkillText />
-            <div className="flex flex-col gap-20 max-sm:gap-4 max-w-[80%] text-center items-center">
+            <div className="flex flex-col gap-20 max-sm:gap-20 max-sm:w-[100%] max-w-[80%] text-center items-center">
                 <Swiper
                     slidesPerView={5}
                     loop={true}
@@ -23,7 +23,7 @@ const Skills = () => {
                     }}
                     speed={5000}
                     modules={[Autoplay]}
-                    className="max-w-[80%] max-sm:w-[65%]"
+                    className="max-w-[80%] max-sm:w-[100]"
                 >
                     {Frontend_skill.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -46,7 +46,7 @@ const Skills = () => {
                     }}
                     speed={5000}
                     modules={[Autoplay]}
-                    className="max-w-[80%] max-sm:w-[65%]"
+                    className="max-w-[80%]"
                 >
                     {Frontend_skill.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -59,11 +59,6 @@ const Skills = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-            </div>
-            <div className='w-full h-full absolute'>
-                <div className='w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
-                    <video className='w-full h-auto' preload='false' playsInline loop muted autoPlay src="/cards-video.webm"></video>
-                </div>
             </div>
         </section>
     )
